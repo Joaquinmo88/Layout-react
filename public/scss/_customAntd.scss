@@ -1,0 +1,14 @@
+.ant-layout-sider,
+.ant-layout-header,
+.ant-layout {
+  background: inherit !important;
+  background-color: transparent !important;
+}
+.ant-layout-header {
+  padding: 0 !important;
+}
+
+.ant-table-thead > tr > th {
+  border-radius: 12px;
+  background: $gray-medium !important;
+}

@@ -1,0 +1,35 @@
+@media (max-width: 992px) {
+  .container-logo { 
+    width: 100px !important;
+    padding: 0 0.3rem;
+    img {
+      max-width: 100% !important;
+    }
+  }
+  .container-menu {
+    width: calc(100% - 100px) !important;
+  }
+}
+
+@media (max-width: 1200px) {
+  .container-logo {
+    width: 200px;
+    padding: 0 0.3rem;
+    img {
+      max-width: 150px;
+    }
+  }
+  .container-menu {
+    width: calc(100% - 200px);
+  }
+}
+
+@media (min-width: 1200px) {
+  .container-logo {
+    width: 200px;
+  }
+
+  .container-menu {
+    width: calc(100% - 200px);
+  }
+}

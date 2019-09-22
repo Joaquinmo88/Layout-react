@@ -1,0 +1,82 @@
+.layout-sider {
+  position: relative !important;
+  background-color: $bg-layout-sider !important;
+  .sider-close {
+    position: absolute;
+    top: 50%;
+    right: -24px;
+    background-color: $bg-layout-sider;
+    padding: 1rem 0.3rem;
+    border-radius: 0 6px 6px 0;
+    margin-top: -24px;
+    cursor: pointer;
+  }
+
+  .layout-sider-logo {
+    padding: 1.5rem 0.5rem;
+    text-align: center;
+    background-color: #fff;
+    transition: all 0.3s ease-in-out;
+    img {
+      max-width: 130px;
+    }
+  }
+
+  .ant-menu {
+    padding: 0.5rem;
+    background-color: transparent;
+    border-right: 0;
+    li {
+      background-color: #757373;
+      border-radius: 6px;
+      i,
+      span {
+        color: #fff;
+      }
+      &::after {
+        border-color: #c3202f;
+      }
+    }
+    &.active {
+      padding: 0;
+      li {
+        border-radius: 0;
+      }
+    }
+  }
+}
+
+.layout-body {
+  // height: 100vh;
+  @include calc(min-height, "100% - 50px");
+  padding: 1rem 2.5rem;
+  background-color: $bg-layout-body;
+
+  .ant-advanced-search-form .ant-form-item {
+    margin-bottom: 10px;
+  }
+}
+
+.layout-footer {
+  max-height: 70px;
+  width: 100%;
+  background-color: $bg-layout-footer !important;
+  display: flex;
+  flex-direction: row;
+  padding: 0 !important;
+  .content-logo {
+    width: 200px;
+    padding: 0.5rem 1rem 0.5rem 4rem;
+    img {
+      max-width: 70px;
+    }
+  }
+  .content-contacto {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    span{
+      color: $white;
+    }
+  }
+}

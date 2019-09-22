@@ -1,0 +1,267 @@
+<div className="content-image">
+                    <div className="diagonal-content"><div className="cover"></div></div>
+                    <div className="container">
+                        <header>
+                            <div className="content-logo">
+                                <img srcSet={logo} />
+                            </div>
+                            <ul>
+                                <li><a href="#">Iniciar session</a></li>
+                                <li className="menu-item-register"><a href="#">Registrate</a></li>
+                            </ul>
+                        </header>
+                        <div className="wrapper-intro">
+                            <div className="content-intro">
+                                <h1 className="content-intro-title">Examen de Admisión Licenciatura UNAM Área 1</h1>
+                                <p className="content-intro-descrip">
+                                    Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.
+                                </p>
+                                <div className="content-intro-image">
+                                    <img srcSet={image_uni} style={{ width: '100%' }} />
+                                </div>
+                                <div className="content-intro-stores-button">
+                                    <a href="#"><img srcSet={app_store_badge_es} /></a>
+                                    <a href="#"><img srcSet={google_store_badge_es} /></a>
+                                </div>
+                            </div>
+                            <PricingBox />
+                            {/* <div className="content-form">
+
+                                <div className="content-pay-number">
+                                    <div className="content-pricing">
+                                        <h5>
+                                            <span className="symbol">$</span>
+                                            <span className="price">
+                                                249
+                                            <span className="decimals">.99</span>
+                                            </span>
+                                            <span className="currency">MXN</span>
+                                        </h5>
+                                    </div>
+                                    <div style={{ height: '150px', overflow: 'hidden', width: '100%', position: 'absolute', left: '0', bottom: '0' }} >
+                                        <svg viewBox="0 0 500 150" preserveAspectRatio="none" style={{ height: '100%', width: '100%' }}>
+                                            <path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style={{ stroke: 'none', fill: '#ffffff' }}></path>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div className="content-list-detail-pay">
+                                    <ul>
+                                        <li>
+                                            <span>Preguntas de comprensión de textos</span>
+                                            <span>350</span>
+                                        </li>
+                                        <li>
+                                            <span>Pregusntas de física</span>
+                                            <span>300</span>
+                                        </li>
+                                        <li>
+                                            <span>Preguntas de matematicas.</span>
+                                            <span>1000</span>
+                                        </li>
+                                        <li>
+                                            <span>Preguntas de comprensión de textos</span>
+                                            <span>350</span>
+                                        </li>
+                                        <li>
+                                            <span>Pregusntas de física</span>
+                                            <span>300</span>
+                                        </li>
+
+                                        <li className="item-btn-pay">
+                                            <Button type="primary" size="large">
+                                                <Icon type="credit-card" theme="filled" />
+                                                <span>Comprar Examen</span>
+                                            </Button>
+                                        </li>
+                                    </ul>
+                                </div>
+                                {/* <div className="content-form-header">
+                                    <h2 className="content-form-header-title">Registrate gratis</h2>
+                                    <a className="content-form-header-btn-login">Iniciar Sesion</a>
+                                </div>
+                                <Form.Item label="Nombre">
+                                    <Input size="large" />
+                                </Form.Item>
+                                <Form.Item label="Apellidos">
+                                    <Input size="large" />
+                                </Form.Item>
+                                <Form.Item label="Email">
+                                    <Input size="large" />
+                                </Form.Item>
+                                <Form.Item label="Contraseña">
+                                    <Input size="large" />
+                                </Form.Item>
+                                <Form.Item label="Confirmar Contraseña">
+                                    <Input size="large" />
+                                </Form.Item>
+                                <Form.Item>
+                                    <Button size="large" type="primary">Registrate</Button>
+                                </Form.Item> 
+                            </div> */}
+                        </div>
+                    </div>
+                </div>
+
+                <div className="content-info-page">
+                    <div className="container">
+
+                        <div className="content-title-section">
+                            <h2 className="title-section">
+                                <span>Title section</span>
+                                <small>Subtitle</small>
+                            </h2>
+                        </div>
+
+                        <div className="wrapper-services-box">
+                            <Row>
+                                <Col xs={{ span: 24, offset: 1 }} lg={{ span: 7, offset: 1 }}>
+                                    <div className="services-item-box">
+                                        <h3 className="services-item-box-title">
+                                            <img srcSet={checklist} />
+                                            <span>Multi seleción</span>
+                                        </h3>
+                                        <p className="services-item-box-descrip">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.</p>
+                                    </div>
+                                </Col>
+                                <Col xs={{ span: 24, offset: 1 }} lg={{ span: 7, offset: 1 }}>
+                                    <div className="services-item-box">
+                                        <div className="services-item-box">
+                                            <h3 className="services-item-box-title">
+                                                <img srcSet={feedback} />
+                                                <span>Feedback</span>
+                                            </h3>
+                                            <p className="services-item-box-descrip">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.</p>
+                                        </div>
+                                    </div>
+                                </Col>
+                                <Col xs={{ span: 24, offset: 1 }} lg={{ span: 7, offset: 1 }}>
+                                    <div className="services-item-box">
+                                        <div className="services-item-box">
+                                            <h3 className="services-item-box-title">
+                                                <img srcSet={error_file} />
+                                                <span>Lorem Ipsum</span>
+                                            </h3>
+                                            <p className="services-item-box-descrip">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.</p>
+                                        </div>
+                                    </div>
+                                </Col>
+                            </Row>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div className="wrapper-video">
+                    <div className="container" style={{ position: 'relative' }}>
+                        {/* <div style={{ top: "-16px", width: '100%', position: 'absolute' }}>
+                            <div style={{ height: '150px', overflow: 'hidden' }} >
+                                <svg viewBox="0 0 500 150" preserveAspectRatio="none" style={{ height: '100%', width: '100%' }}>
+                                    <path d="M0.28,-0.48 C109.20,150.48 393.06,150.48 500.27,-0.48 L500.27,-3.45 L0.85,-1.47 Z" style={{ stroke: 'none', fill: '#ffffff' }}></path>
+                                </svg>
+                            </div>
+                        </div> */}
+                        <div className="wrapper-video-info">
+                            <div className="wrapper-video-info-btn-play">
+                                <span className="zoom">
+                                    <Icon type="play-circle" />
+                                </span>
+                                <img srcSet={image_video} />
+                            </div>
+                            <div className="wrapper-video-info-decription">
+                                <h3>Video blog</h3>
+                                <p>
+                                    Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="content-coments">
+                    <div className="container">
+                        <div className="content-title-section">
+                            <h2 className="title-section">
+                                <span>Title section</span>
+                                <small>Subtitle</small>
+                            </h2>
+                        </div>
+                        <div style={{ marginTop: '3rem' }}>
+                            <AliceCarousel
+                                items={this.state.galleryItems}
+                                responsive={this.responsive}
+                                autoPlayInterval={10000}
+                                autoPlayDirection="rtl"
+                                autoPlay={true}
+                                /*fadeOutAnimation={true}
+                                mouseDragEnabled={true}
+                                playButtonEnabled={false}
+                                disableAutoPlayOnAction={false}
+                                onSlideChange={this.onSlideChange}
+                                onSlideChanged={this.onSlideChanged}*/
+                                dotsDisabled={true}
+                                buttonsDisabled={true}
+                            />
+                        </div>
+                    </div>
+                </div>
+                <div className="content-app-download">
+                    <div className="container">
+                        <div className="content-app-download-info">
+
+                            <div className="content-app-download-text">
+                                <h3>Descarga nuestra App</h3>
+                                <p>
+                                    Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.
+                                </p>
+                                <div className="content-bnts-store">
+                                    <a href="#" className="btn-stores play">
+                                        <img srcSet={google_play} />
+                                        <span>Google Play</span>
+                                    </a>
+                                    <a href="#" className="btn-stores">
+                                        <Icon type="apple" theme="filled" />
+                                        <span>App Store</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div className="content-app-download-image">
+                                <img srcSet={download_mobile_img} />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="footer">
+                    <div className="container">
+                        <Row style={{height: '100%'}}>
+                            <Col xs={{ span: 5, offset: 1 }} lg={{ span: 6, offset: 0 }}>
+                                <h3>Menu 1</h3>
+                                <ul className="footer-menu-list">
+                                    <li><a href="#">Opción 1</a></li>
+                                    <li><a href="#">Opción 2</a></li>
+                                    <li><a href="#">Opción 3</a></li>
+                                    <li><a href="#">Opción 4</a></li>
+                                </ul>
+                            </Col>
+                            <Col xs={{ span: 11, offset: 1 }} lg={{ span: 6, offset: 2 }}>
+                                <h3>Menu 2</h3>
+                                <ul className="footer-menu-list">
+                                    <li><a href="#">Opción 1</a></li>
+                                    <li><a href="#">Opción 2</a></li>
+                                </ul>
+                            </Col>
+                            <Col xs={{ span: 5, offset: 1 }} lg={{ span: 6, offset: 2 }} style={{height: '100%'}}>
+                                <div className="content-social-button">
+                                    <a href="#" className="btn-social facebook"></a>
+                                    <a href="#" className="btn-social twitter"></a>
+                                    <a href="#" className="btn-social youtube"></a>
+                                </div>
+                            </Col>
+                        </Row>
+                    </div>
+                    <div className="footer-copy">
+                        {/* <div> */}
+                        <span>© 2019. Hecho en México.</span>
+                        {/* </div> */}
+                    </div>
+                </div>
